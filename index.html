@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MixLab</title>
     <link rel="stylesheet" href="style.css">
+    <script src="clara.js"></script>
 </head>
 <body>
     
@@ -18,6 +19,78 @@
     
     <center><h1 id="titulo">Quando a Música Fala o Que Palavras Não Conseguem Dizer</h1></center>
 
+</div>
+
+
+<div class="base">
+<div class="primeiro">
+
+    <h1 id="ptitulo">O Poder Emocional da Música: Uma Linguagem Universal</h1>
+
+    <p id="texto1">A música transcende barreiras linguísticas e culturais, comunicando emoções de forma única. 
+        Melodias e ritmos têm a capacidade de expressar sentimentos complexos, como amor, dor ou esperança, 
+        que muitas vezes não conseguimos colocar em palavras. Ela cria conexões profundas entre as pessoas, 
+      permitindo que compartilhem experiências de forma intuitiva e universal.
+    </p>
+</div>
+
+<div class="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="billie.png" alt="Imagem 1">
+        </div>
+        <div class="carousel-item">
+            <img src="chico.jpg" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+            <img src="metalicos.webp" alt="Imagem 3">
+        </div>
+    </div>
+    <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+
+<div class="segundo">
+
+    <h1 id="stitulo"> A Música como Ferramenta de Cura e Reconexão</h1>
+
+    <p id="texto2">Quando as palavras falham, a música serve como um canal de alívio emocional e cura.
+         Ela ajuda a processar traumas, aliviar o estresse e reconectar as pessoas com suas emoções mais profundas. 
+         Essa função terapêutica da música é amplamente reconhecida e utilizada em áreas como a musicoterapia.
+    </p>
+</div>
+
+<video id="video" width="600" controls autoplay loop muted>
+    <source src="historia.mp4" type="video/mp4">
+</video>
+
+<div class="form-container">
+    <div class="description">
+        <p>Preencha o formulário abaixo, e ganhe um fone personalizado para ouvir suas musicas favoritas:</p>
+    </div>
+    <form class="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" placeholder="Digite sua idade" required>
+        
+        <label for="celular">Número de celular:</label>
+        <input type="tel" id="celular" name="celular" placeholder="(00) 00000-0000" required>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<footer>
+    <p>Desenvolvedores: 
+        <a href="https://www.instagram.com/tomieeve/" class="developer-btn">Evelyn</a>  |
+        <a href="https://www.instagram.com/clariinhaj/" class="developer-btn">Clara</a>
+    </p>
+</footer>
 </div>
 
 
